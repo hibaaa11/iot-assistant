@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 import paho.mqtt.client as mqtt
 
 # --- Configuration (must match the README) ---
-GROUPE = "groupe_XX"          # <-- put your real group name here
+GROUPE = "groupe_khadija_hiba_adam"          # <-- put your real group name here
 PREFIX = f"tdia2/{GROUPE}"
 BROKER = "localhost"
 PORT = 1883
@@ -60,4 +60,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
